@@ -31,7 +31,7 @@ _IEEE ANTS 2025 (Submitted)_
 _Preprint_  
 
 🔗 **Links:**  
-- [arXiv / Preprint PDF](#)  
+- [arXiv / Preprint PDF](https://www.preprints.org/frontend/manuscript/55f6c30e90abdc345d107425a9b4258a/download_pub)  
 - [GitHub Code](#)  
 - [Dataset](#)  
 
@@ -42,7 +42,7 @@ _Preprint_
 _MDPI Journal Submission_  
 
 🔗 **Links:**  
-- [MDPI Submission](#)  
+- [MDPI Submission](https://www.mdpi.com/2867244)  
 - [GitHub Code](#)  
 - [Dataset](#)
 
