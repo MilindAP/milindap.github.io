@@ -1,7 +1,3 @@
----
-layout: null
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,70 +5,61 @@ layout: null
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
 
-    <!-- SEO -->
     {%- seo -%}
-
-    <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
-
-    <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
 
 <body>
 
-    <!-- ======= NAVBAR ======= -->
-    <header class="navbar">
-        <div class="nav-container">
+<header class="navbar">
+    <div class="nav-container">
 
-            <a class="nav-title" href="{{ "/" | relative_url }}">
-                {{ site.title }}
+        <a class="nav-title" href="{{ "/" | relative_url }}">
+            {{ site.title }}
+        </a>
+
+        <nav class="nav-icons">
+            <a href="{{ '/' | relative_url }}" class="nav-item">
+                <i data-feather="home"></i><span>Home</span>
             </a>
 
-            <nav class="nav-icons">
-                <a href="{{ '/' | relative_url }}" class="nav-item">
-                    <i data-feather="home"></i><span>Home</span>
-                </a>
+            <a href="{{ '/publications/' | relative_url }}" class="nav-item">
+                <i data-feather="book-open"></i><span>Publications</span>
+            </a>
 
-                <a href="{{ '/publications/' | relative_url }}" class="nav-item">
-                    <i data-feather="book-open"></i><span>Publications</span>
-                </a>
+            <a href="{{ '/projects/' | relative_url }}" class="nav-item">
+                <i data-feather="cpu"></i><span>Projects</span>
+            </a>
 
-                <a href="{{ '/projects/' | relative_url }}" class="nav-item">
-                    <i data-feather="cpu"></i><span>Projects</span>
-                </a>
+            <a href="{{ '/teaching/' | relative_url }}" class="nav-item">
+                <i data-feather="users"></i><span>Teaching</span>
+            </a>
 
-                <a href="{{ '/teaching/' | relative_url }}" class="nav-item">
-                    <i data-feather="users"></i><span>Teaching</span>
-                </a>
+            <a href="{{ '/cv/' | relative_url }}" class="nav-item">
+                <i data-feather="file-text"></i><span>CV</span>
+            </a>
+        </nav>
 
-                <a href="{{ '/cv/' | relative_url }}" class="nav-item">
-                    <i data-feather="file-text"></i><span>CV</span>
-                </a>
-            </nav>
+    </div>
+</header>
 
-        </div>
-    </header>
+<main class="container">
+    {{ content }}
+</main>
 
-    <!-- ======= MAIN CONTENT ======= -->
-    <main class="container">
-        {{ content }}
-    </main>
+<footer class="footer">
+    <p>© {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+    <p>
+        <a href="https://github.com/{{ site.social_links.github }}" target="_blank">GitHub</a> ·
+        <a href="https://linkedin.com/in/{{ site.social_links.linkedin }}" target="_blank">LinkedIn</a> ·
+        <a href="{{ site.author.google_scholar }}" target="_blank">Google Scholar</a>
+    </p>
+</footer>
 
-    <!-- ======= FOOTER ======= -->
-    <footer class="footer">
-        <p>© {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
-        <p>
-            <a href="https://github.com/{{ site.social_links.github }}" target="_blank">GitHub</a> ·
-            <a href="https://linkedin.com/in/{{ site.social_links.linkedin }}" target="_blank">LinkedIn</a> ·
-            <a href="{{ site.author.google_scholar }}" target="_blank">Google Scholar</a>
-        </p>
-    </footer>
-
-    <!-- Activate icons -->
-    <script>
-        feather.replace();
-    </script>
+<script>
+    feather.replace();
+</script>
 
 </body>
 </html>
