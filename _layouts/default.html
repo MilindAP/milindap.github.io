@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/assets/css/custom.css">
-    <link rel="icon" href="/assets/images/favicon.png">
+    <!-- SEO & Feed -->
+    {%- seo -%}
 
-    {% seo %}
-  </head>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
 
-  <body>
+<body>
 
-    <header>
-      <nav class="navbar">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/publications/' | relative_url }}">Publications</a>
-        <a href="{{ '/projects/' | relative_url }}">Projects</a>
-        <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
-        <a href="{{ '/cv/' | relative_url }}">CV</a>
-      </nav>
+    <!-- ======= NAVBAR ======= -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a class="nav-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+
+            <nav class="nav-links">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/publications/' | relative_url }}">Publications</a>
+                <a href="{{ '/projects/' | relative_url }}">Projects</a>
+                <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+                <a href="{{ '/cv/' | relative_url }}">CV</a>
+            </nav>
+        </div>
     </header>
 
+    <!-- ======= MAIN CONTENT ======= -->
     <main class="container">
-      {{ content }}
+        {{ content }}
     </main>
 
-    <footer>
-      <p>© {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+    <!-- ======= FOOTER ======= -->
+    <footer class="footer">
+        <p>© {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+        <p>
+            <a href="https://github.com/{{ site.social_links.github }}" target="_blank">GitHub</a> ·
+            <a href="https://linkedin.com/in/{{ site.social_links.linkedin }}" target="_blank">LinkedIn</a> ·
+            <a href="{{ site.author.google_scholar }}" target="_blank">Google Scholar</a>
+        </p>
     </footer>
 
-  </body>
+</body>
 </html>
