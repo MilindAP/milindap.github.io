@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div style="text-align:center; margin-top: 10px;">
-  <img src="/assets/images/profile.jpg"
+  <img src="/assets/images/Milind_New.JPG"
        alt="Milind Patil"
        style="width:180px; height:180px; border-radius:50%; object-fit:cover;
               border:4px solid #fff; box-shadow:0 4px 18px rgba(0,0,0,0.25); margin-bottom:20px;">
