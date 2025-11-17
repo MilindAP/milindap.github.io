@@ -10,21 +10,22 @@ Below is a list of my peer-reviewed publications, preprints, and conference pape
 
 ---
 
-### **📌 2025**
+### **📌 2024**
 - *Multi-Link Prediction for mmWave Wireless Communication Systems Using LTC Networks, LSTM, and Symbolic Regression*  
   **Milind Patil**, et al.  
-  IEEE ANTS 2025 (Submitted)
+  Preprint
+
+---
+
+### **📌 2024**
+- *Multi-Link Prediction for mmWave Wireless Communication Systems Using LTC Networks, LSTM, and Symbolic Regression*  
+  **Milind Patil**, et al.  
+  MDPI
 
 ---
 
 ### **📌 2024**
 - *Human Activity Recognition Using CSI + Vision Fusion with LLM/VLM Models*  
   **Milind Patil**, et al.  
-  Preprint
+  IEEE ANTS 2025 (Submitted)
 
----
-
-### **📌 2023**
-- *CSI-Based Activity Recognition Using Deep Learning Models*  
-  **Milind Patil**, et al.  
-  MS Thesis, SJSU
