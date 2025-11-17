@@ -1,70 +1,31 @@
-.dark-mode {
-  background-color: #121212 !important;
-  color: #ffffff !important;
-}
-
-.dark-toggle-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 20px;
-  margin-left: 12px;
-}
-
-.dark-mode a {
-  color: #9ecbff !important;
-}
-/* Global typography improvements */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 0 20px;
+  color: #222;
 }
 
-h1, h2, h3 {
+.navbar {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #0366d6;
   font-weight: 600;
 }
 
-/* Card shadow style for all cards */
-.card {
-  border-radius: 12px;
-  padding: 20px;
-  background: #ffffff;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+.profile-img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 180px;
+  border-radius: 50%;
 }
 
-/* Link hover effect */
-a:hover {
-  opacity: 0.7;
-}
-/* Homepage title fix */
-.page h1 {
-    text-align: center;
-    margin-top: 20px;
-}
-
-/* Homepage subtitle */
-.page h3 {
-    text-align: center;
-    font-weight: 500;
-    color: #2a7f35;
-}
-
-/* Center homepage paragraph */
-.page p {
-    text-align: center;
-    max-width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Center homepage list */
-.page ul {
-    max-width: 650px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Navbar spacing */
-.navbar {
-  padding: 10px 0;
+h1, h2, h3 {
+  margin-top: 30px;
+  font-weight: 600;
 }
