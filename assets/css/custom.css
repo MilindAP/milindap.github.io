@@ -36,6 +36,33 @@ h1, h2, h3 {
 a:hover {
   opacity: 0.7;
 }
+/* Homepage title fix */
+.page h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Homepage subtitle */
+.page h3 {
+    text-align: center;
+    font-weight: 500;
+    color: #2a7f35;
+}
+
+/* Center homepage paragraph */
+.page p {
+    text-align: center;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Center homepage list */
+.page ul {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Navbar spacing */
 .navbar {
