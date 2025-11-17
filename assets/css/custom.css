@@ -113,3 +113,56 @@ body {
 .pub-item {
   margin: 12px 0;
 }
+
+/* ------------------------------
+   ICON NAVIGATION
+   ------------------------------ */
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #444;
+  transition: 0.25s ease;
+}
+
+.nav-item i {
+  width: 26px;
+  height: 26px;
+  margin-bottom: 6px;
+  stroke-width: 1.7;
+  color: #222;
+}
+
+.nav-item:hover {
+  transform: translateY(-4px);
+  color: #000;
+}
+
+.nav-item:hover i {
+  color: #000;
+}
+
+.nav-item span {
+  margin-top: 4px;
+}
+
+/* Responsive (Mobile) */
+@media(max-width: 600px) {
+  .nav-icons {
+    gap: 1.5rem;
+  }
+  .nav-item span {
+    font-size: 0.75rem;
+  }
+}
+
