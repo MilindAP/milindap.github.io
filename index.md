@@ -1,20 +1,32 @@
 ---
 layout: default
-title: "Milind Patil"
 ---
 
-<img src="/assets/images/Milind_New.JPG" class="profile-img" alt="Milind Patil">
+<nav>
+  <a href="/">Home</a>
+  <a href="/publications/">Publications</a>
+  <a href="/projects/">Projects</a>
+  <a href="/teaching/">Teaching</a>
+  <a href="/cv/">CV</a>
+</nav>
+
+<div class="container">
+
+<img src="/assets/images/Milind_New.JPG" class="profile-pic" alt="Milind Patil">
 
 # AI/ML for Wireless Communications • CSI Sensing • 6G Research
 
 Welcome to my academic homepage.
 
-I specialize in **AI/ML**, **wireless communication systems**, and **CSI-based sensing**.
-
-### Research Areas
-- CSI-based Human Activity Recognition  
-- AI/ML for RF & Wireless  
-- mmWave/6G modeling  
+I specialize in **AI/ML**, **wireless communication systems**, and **CSI-based sensing**, with a focus on:
+- CSI-based HAR  
+- AI/ML for RF  
+- mmWave/6G  
 - Multimodal CSI + Vision  
 - Symbolic Regression  
-- Agentic AI for HAR  
+
+<footer>
+© 2025 Milind Patil
+</footer>
+
+</div>
