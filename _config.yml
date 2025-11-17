@@ -1,35 +1,69 @@
+# =========================
 # Site settings
+# =========================
 title: "Milind Patil"
 description: "AI/ML for Wireless Communications • CSI Sensing • mmWave/6G Research"
 url: "https://milindap.github.io"
 baseurl: ""
 
-# Remove default GitHub theme
-# DO NOT USE: theme: minima
 
+# =========================
+# Markdown Engine
+# =========================
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Jekyll plugins
+
+# =========================
+# Plugins
+# =========================
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Navigation pages
+
+# =========================
+# Include custom folders so pages do NOT 404
+# =========================
+include:
+  - _pages
+  - _publications
+  - _teaching
+  - _files
+  - assets
+
+
+# =========================
+# Navigation links
+# =========================
 header_pages:
   - _pages/about.md
   - _pages/projects.md
   - _pages/publications.md
   - _pages/teaching.md
+  - _pages/cv.md
 
+
+# =========================
 # Author info
+# =========================
 author:
   name: "Milind Patil"
   email: "milind1995@gmail.com"
-  google_scholar: "https://scholar.google.com/citations?user="
+  google_scholar: "https://scholar.google.com/citations?user=uVWNe7QAAAAJ"  # your actual GS ID
 
-# Social profiles
+
+# =========================
+# Social Links
+# =========================
 social_links:
   github: "MilindAP"
   linkedin: "milind-patil"
+
+
+# =========================
+# Favicon
+# =========================
+# Put favicon.ico or favicon.png inside /assets/images/
+favicon: "/assets/images/favicon.png"
