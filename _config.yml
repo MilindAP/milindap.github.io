@@ -6,14 +6,12 @@ description: "AI/ML for Wireless Communications • CSI Sensing • mmWave/6G Re
 url: "https://milindap.github.io"
 baseurl: ""
 
-
 # =========================
 # Markdown Engine
 # =========================
 markdown: kramdown
 kramdown:
   input: GFM
-
 
 # =========================
 # Plugins
@@ -22,20 +20,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-
 # =========================
-# Include custom folders so pages do NOT 404
-# =========================
-include:
-  - _pages
-  - _publications
-  - _teaching
-  - _files
-  - assets
-
-
-# =========================
-# Navigation links
+# Navigation pages
 # =========================
 header_pages:
   - _pages/about.md
@@ -44,30 +30,13 @@ header_pages:
   - _pages/teaching.md
   - _pages/cv.md
 
-
 # =========================
-# Author info
+# Collections
 # =========================
-author:
-  name: "Milind Patil"
-  email: "milind1995@gmail.com"
-  google_scholar: "https://scholar.google.com/citations?user=uVWNe7QAAAAJ"  # your actual GS ID
-
-
-# =========================
-# Social Links
-# =========================
-social_links:
-  github: "MilindAP"
-  linkedin: "milind-patil"
-
 collections:
   teaching:
     output: true
     permalink: /teaching/:name/
 
 # =========================
-# Favicon
-# =========================
-# Put favicon.ico or favicon.png inside /assets/images/
-favicon: "/assets/images/favicon.ico"
+#
