@@ -24,7 +24,7 @@ Below is a list of my peer-reviewed publications, preprints, and conference pape
 
 ---
 
-### **📌 2024**
+### **📌 2025**
 - *Human Activity Recognition Using CSI + Vision Fusion with LLM/VLM Models*  
   **Milind Patil**, et al.  
   IEEE ANTS 2025 (Submitted)
