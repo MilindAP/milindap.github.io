@@ -4,12 +4,14 @@ title: "Home"
 permalink: /
 ---
 
-<div style="text-align:center; margin-top: 20px;">
-  <img src="/assets/images/Milind_New.JPG"
+<div style="text-align:center; margin-top: 10px;">
+  <img src="/assets/images/profile.jpg"
        alt="Milind Patil"
        style="width:180px; height:180px; border-radius:50%; object-fit:cover;
-              border:4px solid #fff; box-shadow:0 4px 18px rgba(0,0,0,0.25);">
+              border:4px solid #fff; box-shadow:0 4px 18px rgba(0,0,0,0.25); margin-bottom:20px;">
 </div>
+
+<div class="home-container">
 
 # Milind Patil
 
@@ -29,3 +31,5 @@ I specialize in the intersection of **AI/ML**, **wireless communication systems*
 I am currently **seeking research opportunities** in Wireless AI, CSI Sensing, Deep Learning, and 6G technologies.
 
 Explore my **Research**, **Publications**, **Projects**, and **Teaching** pages to learn more.
+
+</div>
