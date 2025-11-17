@@ -3,7 +3,7 @@ layout: home
 title: "Milind Patil"
 ---
 
-<img src="/assets/img/Milind_New.JPG" style="width:180px; border-radius:50%; margin:auto; display:block;">
+<img src="/assets/images/Milind_New.JPG" style="width:180px; border-radius:50%; margin:auto; display:block;">
 
 ## AI/ML for Wireless Communications • CSI Sensing • mmWave/6G Research
 
