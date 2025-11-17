@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,51 +9,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
 
-    <!-- SEO & Feed -->
+    <!-- SEO -->
     {%- seo -%}
 
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
 
-    <!-- Custom CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
 
 <body>
 
-    <!-- ======= NAVBAR WITH ICONS ======= -->
+    <!-- ======= NAVBAR ======= -->
     <header class="navbar">
         <div class="nav-container">
-            <a class="nav-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
+            <a class="nav-title" href="{{ "/" | relative_url }}">
+                {{ site.title }}
+            </a>
 
             <nav class="nav-icons">
-                {% raw %}
-                <a href="/" class="nav-item">
-                    <i data-feather="home"></i>
-                    <span>Home</span>
+                <a href="{{ '/' | relative_url }}" class="nav-item">
+                    <i data-feather="home"></i><span>Home</span>
                 </a>
 
-                <a href="/publications/" class="nav-item">
-                    <i data-feather="book-open"></i>
-                    <span>Publications</span>
+                <a href="{{ '/publications/' | relative_url }}" class="nav-item">
+                    <i data-feather="book-open"></i><span>Publications</span>
                 </a>
 
-                <a href="/projects/" class="nav-item">
-                    <i data-feather="cpu"></i>
-                    <span>Projects</span>
+                <a href="{{ '/projects/' | relative_url }}" class="nav-item">
+                    <i data-feather="cpu"></i><span>Projects</span>
                 </a>
 
-                <a href="/teaching/" class="nav-item">
-                    <i data-feather="users"></i>
-                    <span>Teaching</span>
+                <a href="{{ '/teaching/' | relative_url }}" class="nav-item">
+                    <i data-feather="users"></i><span>Teaching</span>
                 </a>
 
-                <a href="/cv/" class="nav-item">
-                    <i data-feather="file"></i>
-                    <span>CV</span>
+                <a href="{{ '/cv/' | relative_url }}" class="nav-item">
+                    <i data-feather="file-text"></i><span>CV</span>
                 </a>
-                {% endraw %}
             </nav>
+
         </div>
     </header>
 
@@ -68,7 +69,7 @@
         </p>
     </footer>
 
-    <!-- Feather icons activation -->
+    <!-- Activate icons -->
     <script>
         feather.replace();
     </script>
