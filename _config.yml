@@ -61,6 +61,10 @@ social_links:
   github: "MilindAP"
   linkedin: "milind-patil"
 
+collections:
+  teaching:
+    output: true
+    permalink: /teaching/:name/
 
 # =========================
 # Favicon
