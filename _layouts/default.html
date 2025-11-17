@@ -8,23 +8,45 @@
     <!-- SEO & Feed -->
     {%- seo -%}
 
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
 
 <body>
 
-    <!-- ======= NAVBAR ======= -->
+    <!-- ======= NAVBAR WITH ICONS ======= -->
     <header class="navbar">
         <div class="nav-container">
             <a class="nav-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
 
-            <nav class="nav-links">
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <a href="{{ '/publications/' | relative_url }}">Publications</a>
-                <a href="{{ '/projects/' | relative_url }}">Projects</a>
-                <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
-                <a href="{{ '/cv/' | relative_url }}">CV</a>
+            <nav class="nav-icons">
+                <a href="{{ '/' | relative_url }}" class="nav-item">
+                    <i data-feather="home"></i>
+                    <span>Home</span>
+                </a>
+
+                <a href="{{ '/publications/' | relative_url }}" class="nav-item">
+                    <i data-feather="book-open"></i>
+                    <span>Publications</span>
+                </a>
+
+                <a href="{{ '/projects/' | relative_url }}" class="nav-item">
+                    <i data-feather="cpu"></i>
+                    <span>Projects</span>
+                </a>
+
+                <a href="{{ '/teaching/' | relative_url }}" class="nav-item">
+                    <i data-feather="users"></i>
+                    <span>Teaching</span>
+                </a>
+
+                <a href="{{ '/cv/' | relative_url }}" class="nav-item">
+                    <i data-feather="file-text"></i>
+                    <span>CV</span>
+                </a>
             </nav>
         </div>
     </header>
@@ -39,10 +61,4 @@
         <p>© {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
         <p>
             <a href="https://github.com/{{ site.social_links.github }}" target="_blank">GitHub</a> ·
-            <a href="https://linkedin.com/in/{{ site.social_links.linkedin }}" target="_blank">LinkedIn</a> ·
-            <a href="{{ site.author.google_scholar }}" target="_blank">Google Scholar</a>
-        </p>
-    </footer>
-
-</body>
-</html>
+            <a href="https://linkedin.com/in/{{ site.so
