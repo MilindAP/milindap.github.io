@@ -1,34 +1,35 @@
+# Site settings
 title: "Milind Patil"
 description: "AI/ML for Wireless Communications • CSI Sensing • mmWave/6G Research"
 url: "https://milindap.github.io"
 baseurl: ""
 
-# Theme
-theme: minima
+# Remove default GitHub theme
+# DO NOT USE: theme: minima
 
-# Markdown + Plugins
 markdown: kramdown
 kramdown:
   input: GFM
 
+# Jekyll plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Navigation
+# Navigation pages
 header_pages:
   - _pages/about.md
   - _pages/projects.md
   - _pages/publications.md
   - _pages/teaching.md
 
-# Author
+# Author info
 author:
   name: "Milind Patil"
   email: "milind1995@gmail.com"
   google_scholar: "https://scholar.google.com/citations?user="
 
-# Social Links
+# Social profiles
 social_links:
   github: "MilindAP"
   linkedin: "milind-patil"
