@@ -1,139 +1,29 @@
-/* -----------------------------------------------------------
-   GLOBAL TYPOGRAPHY & PAGE LAYOUT
------------------------------------------------------------ */
-
+/* ===== GLOBAL RESET ===== */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px !important;
-    line-height: 1.7;
-    color: #222;
-    margin: 0;
-    padding: 0;
-    background: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #ffffff;
+  color: #222;
+  line-height: 1.6;
 }
 
-.wrapper {
-    max-width: 1100px !important;
-    margin: 0 auto !important;
-    padding: 0 20px;
+/* ===== PAGE CONTAINER (MOST IMPORTANT FIX) ===== */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
-/* -----------------------------------------------------------
-   NAVIGATION BAR
------------------------------------------------------------ */
-
-.site-header {
-    border: none !important;
-    padding: 10px 0;
-    background: #ffffff;
+/* ===== NAVIGATION BAR ===== */
+nav {
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  text-align: center;
 }
 
-.site-title {
-    display: none !important;  /* hides the default big title on left */
-}
-
-.site-nav {
-    float: none !important;
-    text-align: center !important;
-    margin: 10px 0 20px 0;
-}
-
-.site-nav .page-link {
-    font-size: 18px !important;
-    margin: 0 15px;
-    color: #007aff;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.site-nav .page-link:hover {
-    text-decoration: underline;
-}
-
-/* -----------------------------------------------------------
-   PROFILE IMAGE
------------------------------------------------------------ */
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.profile-pic, img[src*="jpg"], img[src*="png"] {
-    border-radius: 50%;
-    width: 180px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-/* -----------------------------------------------------------
-   HOME PAGE CONTENT
------------------------------------------------------------ */
-
-.page__content {
-    margin-top: 10px;
-    padding-top: 0px !important;
-    text-align: left;
-}
-
-.page__content h1, 
-.page__content h2, 
-.page__content h3 {
-    text-align: center;
-    font-weight: 700;
-}
-
-.page__content ul {
-    margin-left: 40px;
-}
-
-/* -----------------------------------------------------------
-   FOOTER
------------------------------------------------------------ */
-
-.site-footer {
-    margin-top: 40px;
-    padding-top: 15px;
-    text-align: center;
-    color: #888;
-    border-top: 1px solid #eee;
-    font-size: 14px;
-}
-
-.site-footer a {
-    color: #007aff;
-}
-
-/* -----------------------------------------------------------
-   LINKS
------------------------------------------------------------ */
-
-a {
-    color: #007aff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* -----------------------------------------------------------
-   RESPONSIVE DESIGN
------------------------------------------------------------ */
-
-@media screen and (max-width: 600px) {
-    .site-nav .page-link {
-        display: inline-block;
-        margin: 8px;
-        font-size: 16px;
-    }
-
-    .profile-pic {
-        width: 150px;
-    }
-
-    body {
-        font-size: 17px;
-    }
-}
+nav a {
+  margin: 0 15px;
+  font-size
