@@ -2,7 +2,7 @@
 title: "Instructional Student Assistant — Computer Vision with AI Applications (EE267)"
 collection: teaching
 type: "Graduate Course"
-permalink: /teaching/2023-spring-cv-ai
+permalink: /teaching/2023-spring-cv-ai/
 venue: "San Jose State University — Department of Electrical Engineering"
 date: 2023-01-26
 location: "San Jose, CA, United States"
@@ -18,23 +18,24 @@ location: "San Jose, CA, United States"
 
 ### 🟦 Responsibilities
 
-#### 1. Course Assistance & Lab Guidance
-- Assisted a single section of the graduate CV course, helping students with OpenCV, TensorFlow/Keras, and MATLAB-based image processing tasks.
-- Guided students in implementing key vision algorithms: feature extraction, classification, segmentation, filtering, and classical CV pipelines.
-- Provided hands-on support during labs to debug and improve project implementations.
+#### 1. Course Assistance & Lab Support
+- Assisted students with OpenCV, TensorFlow/Keras, and MATLAB-based image processing assignments.
+- Guided implementations of key vision algorithms: feature extraction, classification, segmentation, filtering, and classical CV pipelines.
+- Provided hands-on help during labs to debug model and image-processing code.
 
 #### 2. Grading & Assessment
-- Graded all assignments, quizzes, programming submissions, and exams.
-- Evaluated project proposals, mid-term updates, and final project reports.
+- Graded assignments, quizzes, programming submissions, and exams.
+- Evaluated project proposals, mid-term updates, and final deliverables.
 
 #### 3. Student Mentoring
-- Offered dedicated office hours for project help and clarifying CV/AI fundamentals.
-- Helped students understand CNN design, convolution operations, pooling, augmentation, and model tuning.
+- Held office hours to explain CV/AI fundamentals and guide student projects.
+- Helped students understand CNN architecture, convolution operations, augmentation, and model tuning.
 
 #### 4. Course Communication
-- Shared important course announcements, deadlines, and project guidelines.
-- Maintained coordination between students and the instructor.
+- Shared important course announcements and deadlines.
+- Coordinated between students and the instructor to ensure smooth course flow.
 
 ---
 
-This position enhanced my ability to mentor students in both classical and deep learning–based computer vision techniques.
+This role enhanced my ability to mentor students in both classical and deep-learning–based computer vision methods.
+
