@@ -6,21 +6,32 @@ permalink: /teaching/
 
 # Teaching Experience
 
-Below is a summary of the teaching roles I have held at **San Jose State University**, where I supported graduate-level engineering instruction in AI, Machine Learning, and Computer Vision.
+Below is a summary of the teaching roles I have held at  
+**San Jose State University**, supporting graduate-level engineering instruction in:
 
-All detailed teaching experience pages are listed automatically from the teaching collection.
+- Artificial Intelligence  
+- Machine Learning  
+- Computer Vision  
+- Computer Architecture  
+
+All detailed teaching pages are pulled automatically from the **teaching collection**.
 
 ---
 
 ## 🧑‍🏫 Teaching Roles
 
-{% for item in site.teaching %}
-### [{{ item.title }}]({{ item.url }})
+{% assign sorted_teaching = site.teaching | sort: "date" | reverse %}
+
+{% for item in sorted_teaching %}
+### <a href="{{ item.url }}">{{ item.title }}</a>
+
 - **Course Type:** {{ item.type }}
 - **Institution:** {{ item.venue }}
 - **Term:** {{ item.date | date: "%B %Y" }}
-{% endfor %}
+- **Location:** {{ item.location }}
 
 ---
 
-If you would like more details about any particular teaching experience, click on the individual entries above.
+{% endfor %}
+
+If you would like deeper details about any teaching experience, click on the individual entries above.
