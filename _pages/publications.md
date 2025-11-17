@@ -1,22 +1,30 @@
 ---
-layout: page
+layout: default
 title: "Publications"
 permalink: /publications/
 ---
 
 # Publications
 
-## Multi-Link Prediction for mmWave Wireless (IEEE ANTS)
-**Milind Patil**, et al.  
-Hybrid LSTM + LTC + Symbolic Regression for 5G/6G multi-link prediction.
+Below is a list of my peer-reviewed publications, preprints, and conference papers.
 
-## CSI + Vision HAR with LLM/VLM Fusion (submitted to ANTS 2025)
-**Milind Patil**, et al.  
-Multimodal HAR system combining CSI with Vision Transformers.
+---
 
-## UAV Path Planning using CNN Scene Understanding (MDPI Sensors)
-**Milind Patil**, et al.  
-CNN-driven UAV path planning and scene interpretation.
+### **📌 2025**
+- *Multi-Link Prediction for mmWave Wireless Communication Systems Using LTC Networks, LSTM, and Symbolic Regression*  
+  **Milind Patil**, et al.  
+  IEEE ANTS 2025 (Submitted)
 
-**Full list on ResearchGate:**  
-https://www.researchgate.net/profile/Milind-Patil-30
+---
+
+### **📌 2024**
+- *Human Activity Recognition Using CSI + Vision Fusion with LLM/VLM Models*  
+  **Milind Patil**, et al.  
+  Preprint
+
+---
+
+### **📌 2023**
+- *CSI-Based Activity Recognition Using Deep Learning Models*  
+  **Milind Patil**, et al.  
+  MS Thesis, SJSU
