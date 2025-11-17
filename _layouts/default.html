@@ -20,33 +20,35 @@
     <!-- ======= NAVBAR WITH ICONS ======= -->
     <header class="navbar">
         <div class="nav-container">
-            <a class="nav-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+            <a class="nav-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
 
             <nav class="nav-icons">
-                <a href="{{ '/' | relative_url }}" class="nav-item">
+                {% raw %}
+                <a href="/" class="nav-item">
                     <i data-feather="home"></i>
                     <span>Home</span>
                 </a>
 
-                <a href="{{ '/publications/' | relative_url }}" class="nav-item">
+                <a href="/publications/" class="nav-item">
                     <i data-feather="book-open"></i>
                     <span>Publications</span>
                 </a>
 
-                <a href="{{ '/projects/' | relative_url }}" class="nav-item">
+                <a href="/projects/" class="nav-item">
                     <i data-feather="cpu"></i>
                     <span>Projects</span>
                 </a>
 
-                <a href="{{ '/teaching/' | relative_url }}" class="nav-item">
+                <a href="/teaching/" class="nav-item">
                     <i data-feather="users"></i>
                     <span>Teaching</span>
                 </a>
 
-                <a href="{{ '/cv/' | relative_url }}" class="nav-item">
-                    <i data-feather="file-text"></i>
+                <a href="/cv/" class="nav-item">
+                    <i data-feather="file"></i>
                     <span>CV</span>
                 </a>
+                {% endraw %}
             </nav>
         </div>
     </header>
@@ -61,4 +63,15 @@
         <p>© {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
         <p>
             <a href="https://github.com/{{ site.social_links.github }}" target="_blank">GitHub</a> ·
-            <a href="https://linkedin.com/in/{{ site.so
+            <a href="https://linkedin.com/in/{{ site.social_links.linkedin }}" target="_blank">LinkedIn</a> ·
+            <a href="{{ site.author.google_scholar }}" target="_blank">Google Scholar</a>
+        </p>
+    </footer>
+
+    <!-- Feather icons activation -->
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+</html>
