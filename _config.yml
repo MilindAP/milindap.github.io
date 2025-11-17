@@ -4,7 +4,14 @@ description: "AI/ML for Wireless Communications · CSI Sensing · mmWave/6G · R
 url: "https://milindap.github.io"
 
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+name: "Milind Patil"
+tagline: "AI/ML for Wireless • CSI Sensing • mmWave/6G"
+
 
 plugins:
   - jekyll-feed
